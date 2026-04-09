@@ -32,7 +32,7 @@ export function Footer() {
             {brands.map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-4 rounded-lg flex-items-center justify-center"
+                className="bg-white p-4 rounded-lg justify-items-center justify-center"
               >
                 <Image
                   src={item.logo}

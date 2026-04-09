@@ -13,7 +13,10 @@ export function About() {
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <div className="relative w-full h-100 rounded-3xl overflow-hidden">
+            <div
+              className="relative w-full h-100 rounded-3xl overflow-hidden"
+              data-aos="fade-up-right"
+            >
               <Image
                 src={about1Img}
                 alt="Foto do cachorro"
@@ -23,7 +26,10 @@ export function About() {
               />
             </div>
 
-            <div className="absolute w-40 h-40 right-4 -bottom-8 border-4 overflow-hidden border-white rounded-lg">
+            <div
+              className="absolute w-40 h-40 right-4 -bottom-8 border-4 overflow-hidden border-white rounded-lg"
+              data-aos="fade-up-left"
+            >
               <Image src={about2Img} alt="Foto do cachorro 2" fill priority />
             </div>
           </div>

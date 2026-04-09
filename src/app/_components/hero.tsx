@@ -37,6 +37,7 @@ export function Hero() {
                 target="_blank"
                 href={`https://wa.me/5587999989999?text=Olá vim pelo site e gostaria de mais informações`}
                 className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+                data-aos="fade-right"
               >
                 <WhatsappLogoIcon className="w-5 h-5" />
                 Contato via WhatsApp
